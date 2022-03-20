@@ -1,38 +1,33 @@
 # Overview
 
-{Important!  Do not say in this section that this is college assignment.  Talk about what you are trying to accomplish as a software engineer to further your learning.}
+The purpose of this program is to show my learning of Networing in a client to server scenario.
 
-{Provide a description the networking program that you wrote. Describe how to use your software.  If you did Client/Server, then you will need to describe how to start both.}
+The programs I created are, a server program that runs and waits for a connection, once a connection is made it reads what is sent and send the same thing back, and then I created a client program that connects to the server sends "Hello World" and then prints what is returned from the server. 
 
-{Describe your purpose for writing this software.}
+The purpose of this software was to learn about networking and how clent and server connections are made.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (you will need to show two pieces of software running and communicating with each other) and a walkthrough of the code.}
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/KUEhD3ajF4Q)
 
 # Network Communication
 
-{Describe the architecture that you used (client/server or peer-to-peer)}
-
-{Identify if you are using TCP or UDP and what port numbers are used.}
-
-{Identify the format of messages being sent between the client and server or the messages sent between two peers.}
+* Server - Client
+* I used TCP with port 65432
+* The format of the message sent between Client and server are bytes
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
-
-{Describe the programming language that you used and any libraries.}
+* Python Language
+* Visual Studio Code
+* Windows Powershell
+* Socket Library
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+* [Real Python Socket tutorial](https://realpython.com/python-sockets/)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-* Item 1
-* Item 2
-* Item 3
+* Make the data sent from Client easily changeable.
+* Create more unique server responses.
+* Make server able to handle more connections.
